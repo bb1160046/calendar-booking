@@ -92,5 +92,16 @@ Open the H2 console URL, enter the above credentials, and click **Connect**.
 - Create calendar owners, set availability windows, search available slots, and book appointments via the API.  
 - All data is stored in the in-memory H2 database, which resets on every application restart.
 
+## Documentation & Testing
+
+- **JavaDoc Comments:**  
+  The project includes comprehensive JavaDoc comments across all major classes and methods. This ensures clear, maintainable, and well-documented code for developers and API users.
+
+- **JUnit & Mockito Tests:**  
+  The application is thoroughly tested using JUnit 5 and Mockito to cover service and controller layers.  
+  - Unit tests ensure individual components function correctly.  
+  - Mocking is used for dependencies to isolate tests.  
+  - These tests help achieve high code coverage and robustness.
+
 
  
